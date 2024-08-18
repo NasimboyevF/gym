@@ -1,10 +1,406 @@
+.bg-img {
+    background-image: url(../img/ismoil-hero-bg-img.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 520px;
+}
 
+.hero-content {
+    padding-top: 226px;
+    text-align: center;
+    margin: 0 auto;
+}
 
+.hero-text {
+    color: #ffffff;
+    font-family: Oswald;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 168%;
+    letter-spacing: 16%;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
 
+.hero-title {
+    color: #ffffff;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 8%;
+    text-transform: uppercase;
+    margin-bottom: 151px;
+}
 
+.carusel-bg-color {
+    background: rgba(241, 241, 241, 1);
+}
 
+.carusel-content {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 
+.carusel-title {
+    color: #000000;
+    font-family: Oswald;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 168%;
+    letter-spacing: 16%;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
 
+.packages-wrapper {
+    padding: 64px 0;
+    text-align: center;
+}
 
+.packages-title {
+    color: rgb(0, 0, 0);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 8%;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
 
+.packages-text {
+    color: rgb(0, 0, 0);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 167.5%;
+    letter-spacing: 0%;
+}
 
+.packages-card {
+    background: rgba(241, 241, 241, 1);
+    border-bottom: 2px solid #ffffff;
+}
+
+.packages-card-content {
+    padding: 80px 0 0 0;
+    text-align: center;
+}
+
+.packages-card-title {
+    color: #000000;
+    font-family: Open Sans;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 24%;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+}
+
+.packages-card-text {
+    color: rgb(0, 0, 0);
+    font-family: Oswald;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 168%;
+    letter-spacing: 16%;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+}
+
+.packages-card-img {
+    margin-bottom: 16px;
+}
+
+.faster-wrapper {
+    padding: 40px 0 116px 0;
+}
+
+.faster-wrapper-title {
+    text-align: center;
+    color: #000000;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 167.5%;
+    letter-spacing: 0%;
+}
+
+.faster-line {
+    margin-left: 508px;
+    display: block;
+    width: 176px;
+    border: 1px solid rgb(194, 165, 120);
+}
+
+.faster-toptitle {
+    margin-top: 80px;
+    color: #000000;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 8%;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.faster-title {
+    color: #000000;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 143%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.faster-title-color {
+    color: rgb(194, 165, 120);
+}
+
+.pullup-title {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: rgb(0, 0, 0);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 168%;
+    letter-spacing: 10%;
+    text-transform: uppercase;
+}
+
+.pulling-text {
+    color: rgb(118, 118, 118);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 167.5%;
+    letter-spacing: 0%;
+}
+
+.pullup-content-wrapper {
+    margin-bottom: 64px;
+}
+
+.financing-bg-color {
+    background: rgba(251, 251, 251, 1);
+}
+
+.financing-content-wrapper {
+    text-align: center;
+    padding: 108px 0 109px 0;
+}
+
+.financing-title {
+    color: rgb(0, 0, 0);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 8%;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.financing-text {
+    color: rgb(0, 0, 0);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 167.5%;
+    letter-spacing: 0%;
+    margin-bottom: 40px;
+}
+
+.financing-btn {
+    width: 236px;
+    height: 58px;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 17.5%;
+    /* text-align: left; */
+    text-transform: uppercase;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+
+.financing-btn:hover {
+    background-color: rgb(238, 236, 236);
+}
+
+.financing-btn::after {
+    content: url(../img/financing-next-arrow.svg);
+    position: relative;
+    left: 20px;
+}
+
+.consultation-content-wrapper {
+    padding: 64px 0 80px 0;
+    text-align: center;
+}
+
+.consultation-title {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 8%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.consultation-text {
+    color: rgb(53, 53, 53);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 167.5%;
+    letter-spacing: 0%;
+    margin-bottom: 40px;
+}
+
+.consultation-bottomtext {
+    color: rgb(0, 0, 0);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 167.5%;
+    letter-spacing: 0%;
+    max-width: 422px;
+    margin: 0 auto;
+}
+
+.site-form {
+    margin: 0 auto;
+    width: 442px;
+    padding-bottom: 24px;
+}
+
+.form-input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-wrapper {
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 167.5%;
+    letter-spacing: 0%;
+}
+
+.input-wrap {
+    width: 213px;
+}
+
+.input-wrap::placeholder {
+    color: rgb(0, 0, 0);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 167.5%;
+    letter-spacing: 0%;
+}
+
+.input-line {
+    display: block;
+    width: 213px;
+    border: 1px solid rgb(196, 196, 196);
+    margin-top: 12px;
+}
+
+.input-title {
+    color: rgb(0, 0, 0);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 167.5%;
+    letter-spacing: 0%;
+    margin-bottom: 8px;
+}
+
+.email-input-wrapper {
+    margin-top: 24px;
+}
+
+.input-line-email {
+    display: block;
+    width: 100%;
+    border: 1px solid rgb(196, 196, 196);
+    margin-top: 12px;
+}
+
+.interested-wrapper {
+    margin-top: 24px;
+}
+
+.interested-input-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 9px;
+    gap: 8px;
+}
+
+.interested-title {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 167.5%;
+    letter-spacing: 0%;
+    margin-bottom: 9px;
+}
+
+.wrapper {
+    margin-top: 24px;
+}
+
+.wrapper-title {
+    color: rgb(0, 0, 0);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 167.5%;
+    letter-spacing: 0%;
+}
+
+.textarea {
+    margin-top: 8px;
+    width: 100%;
+    height: 120px;
+    border: 1px solid rgb(196, 196, 196);
+}
+
+.btn {
+    margin-top: 24px;
+    width: 100%;
+    height: 43px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 17.5%;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.btn:hover {
+    background-color: rgb(190, 186, 186);
+}
