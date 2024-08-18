@@ -1,4 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.cdnfonts.com/css/arca-majora-3');
+.dumbbel{
+    padding: 40px 153px 44px 153px;
+}
+.dumbbel-title{
+font-size: 24px;
+font-weight: 600;
+line-height: 31.2px;
+letter-spacing: 0.08em;
+text-align: left;
+text-transform: uppercase;
+color: #000000;
+
+}
+.dumbbel-cost{
+font-size: 14px;
+font-weight: 400;
+line-height: 23.45px;
+text-align: left;
+color: #000000;
+padding: 8px 0px;
+}
+.reviews{
+font-size: 14px;
+font-weight: 300;
+line-height: 23.45px;
+text-align: left;
+color: #000000;
+padding-left: 8px;
+}
+.logo-pay{
+    padding: 9px 0px 16px 0px;
+}
+.single-content{
+    margin-top: 8px;
+    display: block;
+    gap: 8px;
+}
+.single-items{
+    display: flex;
+    gap: 8px;
+    padding-bottom: 8px;
+}
+.single{
+font-size: 13px;
+font-weight: 400;
+line-height: 23.45px;
+text-align: center;
+border: 1px solid gray;
+padding: 16px 39px;
+}
+.single:hover{
+    border-color: #000000;
+}
+.free-text{
+    font-family: "Nunito", sans-serif;
+font-size: 14px;
+font-style: italic;
+font-weight: 400;
+line-height: 23.45px;
+text-align: left;
+color: #979797;
+padding-top: 8px;
+}
+.num1{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 16px;
+    border: 1px solid gray;
+}
+.num2{
+    padding: 14px 68px;
+font-size: 12px;
+font-weight: 400;
+line-height: 16.34px;
+letter-spacing: 4px;
+text-align: center;
+color:#FFFFFF;
+background-color: #000000;
+
+}
+.num{
+    display: flex;
+    gap: 8px;
+}
+.one{
+    padding: 0px 39px;
+}
+.frequently{
+    margin-top: 24px;
+    border-top: 1px solid #F1F1F1
+}
+.frequently-buy{
+    display: flex;
+    gap: 18px;
+}
+.frequently-title{
+font-size: 16px;
+font-weight: 600;
+line-height: 26.8px;
+text-align: left;
+padding: 16px 0px 47px 0px;
+
+}
+.product-name{
+font-size: 14px;
+font-weight: 400;
+line-height: 23.45px;
+text-align: left;
+
+}
+.add-cart{
+font-size: 14px;
+font-weight: 300;
+line-height: 23.45px;
+text-align: left;
+text-decoration-line: underline;
+
+}
+.rubber{
+    background-color: #000000;
+}
+.hex-text{
+font-size: 28px;
+font-weight: 400;
+line-height: 36.4px;
+letter-spacing: 0.08em;
+text-align: left;
+color: #FFFFFF;
+padding: 58px 0px 34px 0px;
+text-transform: uppercase;
+
+}
+.hex-text2{
+font-size: 16px;
+font-weight: 400;
+line-height: 26.8px;
+text-align: left;
+color: #FFFFFF;
+
+}
+.hex-text3{
+font-size: 16px;
+font-weight: 400;
+line-height: 26.8px;
+text-align: left;
+color: #FFFFFF;
+padding: 40px 0px;
+
+}
+.hex-text3 span{
+    font-family: "Nunito", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 26.8px;
+text-align: left;
+text-decoration-line: underline;
+
+}
+.spwomen{
+    padding-top: 80px;
+}
+.info-title{
+font-size: 16px;
+font-weight: 400;
+line-height: 26.8px;
+text-align: left;
+color: #FFFFFF;
+padding: 40px 0px 25px 0px;
+}
+.info-text1{
+    font-family: 'Arca Majora 3', sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 26.8px;
+text-align: left;
+color: #FFFFFF;
 
 
+}
+.info-div{
+    display: flex;
+    gap: 9px;
+    padding-bottom: 16px;
+}
+.workout{
+    font-family: 'Arca Majora 3', sans-serif;
+font-size: 32px;
+font-weight: 700;
+line-height: 45.76px;
+letter-spacing: 5px;
+text-align: left;
+color: #FFFFFF;
+text-transform: uppercase;
+padding-top: 68px;
 
+}
+.spwomen2{
+ padding: 24px 0px 40px 0px ;
+}
+.like-title{
+    font-family: 'Arca Majora 3', sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 40.32px;
+letter-spacing: 0.08em;
+text-align: left;
+text-transform: uppercase;
+padding: 60px 0px 24px 0px ;
 
+}
+.best-seller{
+    max-width: 100px;
+font-size: 12px;
+font-weight: 400;
+line-height: 20.1px;
+text-align: center;
+padding: 4px 16px;
+color: #FFFFFF;
+background-color: #000000;
+position: absolute;
+margin: 8px;
+}
+.product-name2{
+font-family: var(--Oswald);
+font-size: 12px;
+font-weight: 300;
+line-height: 20.16px;
+letter-spacing: 0.16em;
+text-align: left;
+text-transform: uppercase;
+padding: 16px 0px 8px 0px;
+
+}
+.cost{
+    padding-top: 8px;
+}
+.best-seller-div{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 62px;
+}
+.review{
+    font-family: 'Arca Majora 3', sans-serif;
+
+font-size: 24px;
+font-weight: 700;
+line-height: 40.32px;
+letter-spacing: 0.08em;
+text-align: center;
+text-transform: uppercase;
+}
+.band{
+font-size: 60px;
+font-weight: 700;
+line-height: 78px;
+letter-spacing: 0.24em;
+text-align: center;
+padding-top: 16px;
+
+}
+.star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review2{
+font-size: 16px;
+font-weight: 400;
+line-height: 26.8px;
+text-align: center;
+padding: 8px 0px 16px 0px;
+
+}
+.star-scale{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 10px;
+}
+.scale{
+    height: 8px;
+    width: 214px;
+    background-color: #000000;
+}
+.scale-gray{
+    height: 8px;
+    width: 214px;
+    background-color: #F1F1F1;
+}
+.black-side{
+    position: absolute;
+    height: 8px;
+    width: 26px;
+    background-color: #000000;
+}
+.gray-side{
+    height: 8px;
+    width: 214px;
+    background-color: #F1F1F1;
+}
+.sides{
+    position: relative;
+}
+.btn-review{
+    font-family: 'Arca Majora 3', sans-serif;
+
+font-size: 16px;
+font-weight: 700;
+line-height: 26.88px;
+text-align: center;
+padding: 8px 100px;
+background-color: #000000;
+color: #FFFFFF;
+display: block;
+margin: auto;
+border: 1px solid #000000;
+margin-bottom: 8px;
+}
+.btn-review:hover{
+    color: #000000;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+}
+.btn-2{
+    margin-top: 24px;
+    margin-bottom: 103px;
+}
+.name1{
+font-size: 16px;
+font-weight: 600;
+line-height: 26.8px;
+text-align: left;
+
+}
+.ava-div{
+    display: flex;
+    gap: 40px;
+    border-top: 1px solid #F1F1F1;
+    padding-top: 24px;
+}
+.last-date-div{
+    border-bottom: 1px solid #F1F1F1;
+
+}
+.ava{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    white-space: nowrap;
+    padding-bottom: 16px;
+}
+.deliver-title{
+font-size: 16px;
+font-weight: 600;
+line-height: 26.8px;
+text-align: left;
+
+}
+.deliver-text{
+font-size: 16px;
+font-weight: 400;
+line-height: 26.8px;
+text-align: left;
+padding-top: 8px;
+}
+.ul-review{
+    display: flex;
+    gap: 6px;
+}
+.helpful-div{
+    display: flex;
+    justify-content: space-between;
+    gap: 9px;
+}
+.date-div{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+}
+.th-down{
+    padding-left: 7px;
+}
+.date-text{
+font-size: 14px;
+font-weight: 400;
+line-height: 23.45px;
+text-align: left;
+color:#C4C4C4;
+
+}
+.helpful-text{
+font-size: 14px;
+font-weight: 400;
+line-height: 23.45px;
+text-align: left;
+
+}
+.next-div{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0px 80px 0px;
+}
+.ul-next{
+    display: flex;
+    gap: 5px;
+}
+.ul-next li:first-child{
+    text-decoration: underline;
+}
