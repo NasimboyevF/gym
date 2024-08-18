@@ -1,4 +1,85 @@
+.subheading {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 24px;
+}
 
+.item {
+    width: 356px;
+    height: 445px;
+    background-image: url("../img/Imron-1.png");
+    object-fit: contain;
+}
+
+.button {
+    position: relative;
+    width: 90px;
+    height: 28px;
+    top: 8px;
+    left: 8px;
+    background: transparent;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20.1px;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.button:active {
+    box-shadow: 20px 20px 50px 15px grey;
+}
+
+.product {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20.16px;
+    letter-spacing: 0.16em;
+    text-align: left;
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+
+.price {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20.16px;
+    letter-spacing: 0.16em;
+    text-align: left;
+}
+
+.grid {
+    display: flex;
+    gap: 8px;
+}
+
+.blocks {
+    display: grid;
+    gap: 26px;
+}
+
+.padding {
+    padding-bottom: 80px;
+}
+
+img {
+    object-fit: contain;
+}
 
 
 
