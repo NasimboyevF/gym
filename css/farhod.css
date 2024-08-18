@@ -2,6 +2,502 @@
 
 
 
+.hero {
+    background-image: url(../img/farhod-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: 768px 620px;
+    background-position:center;
+    color: #FFFFFF;
+    padding-top: 294px;
+    padding-bottom: 46px;
+}
 
+.hero-title {
+    max-width: 447px;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 67.6px;
+    letter-spacing: 0.24em;
+    margin-bottom: 16px;
+}
+.hero-text {
+    max-width: 447px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.45px;
+    margin-bottom: 24px;
+}
+
+.hero-button {
+    width: 236px;
+    padding: 21px 24px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.34px;
+    letter-spacing: 0.175em;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.karusel
+{
+    padding-top: 40px ;
+    padding-bottom: 80px;
+}   
+
+.karusel-overflov
+{
+    overflow-x: scroll;
+    padding-bottom: 40px;
+}
+
+.karusel-wrapper
+{
+    width: 1360px;
+
+}
+
+.karusel-wrapper
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.karusel-overflov::-webkit-scrollbar {
+    
+    width: 720px;
+    height: 2px;
+    background-color: #F1F1F1;
+}
+
+.karusel-overflov::-webkit-scrollbar-thumb {
+border-radius: 40px;
+    background-color: #000000;
+}
+
+
+.karusel-kard
+{
+    background-image: url(../img/farhod-bumpler.png);
+    background-size: contain;
+    background-position: center;
+    width: 328px;
+    height: 324px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.karusel-kard:nth-child(2)
+{
+    background-image: url(../img/farhod-squat.png);
+}
+
+.karusel-kard:nth-child(3)
+{
+    background-image: url(../img/farhod-garage.png);
+}
+
+.karusel-kard:nth-child(4)
+{
+    background-image: url(../img/farhod-affilate.png);
+}
+
+
+.karusel-kard a
+{
+    font-family: var(--Oswald);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20.16px;
+    letter-spacing: 0.16em;
+}
+
+
+.seller
+{
+    padding: 80px 0 72px;
+
+}
+
+.seller-imgs
+{
+    display: flex;
+    gap: 35px;
+    margin-bottom: 40px;
+}
+
+.seller-imgs img:nth-child(2)
+{
+    width: 254px;
+    height: 345px;
+    position: relative;
+    top: 44px;
+}
+
+.seller-start {
+    text-transform: uppercase;
+    font-family:var(--Oswald) ;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20.16px;
+    letter-spacing: 0.16em;
+    margin-bottom: 8px;
+}
+.seller-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31.2px;
+    letter-spacing: 0.08em;
+    margin-bottom: 16px;
+}
+
+.seller-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.45px;
+    color: #8F8F8F;
+    margin-bottom: 40px;
+}
+
+.seller-link {
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.34px;
+    letter-spacing: 0.175em;
+    border-bottom: 1px solid #000000;
+}
+
+.training
+{
+    padding: 119px 0;
+    color: #FFFFFF;
+    background-image: url(../img/farhod-training.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.training-title {
+    max-width: 490px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57.2px;
+    letter-spacing: 0.18em;
+    margin-bottom: 24px;
+
+}
+.training-text {
+    max-width: 490px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.45px;
+    margin-bottom: 40px;
+}
+
+.gym
+{
+    padding: 40px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gym-title
+{
+    padding: 16px 0;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.08em;
+}
+
+.arrivals
+{
+    padding: 194px 0;
+    background-image: url(../img/farhod-arrivals.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrivals-title
+{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 51.48px;
+    letter-spacing: 0.18em;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+
+
+
+.favorites {
+    padding: 40px 24px 80px;
+}
+
+.favorits-start {
+    font-family: var(--Oswald);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20.16px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.favorite-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+
+}
+.favorite-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.45px;
+    color: #8F8F8F;
+    margin-bottom: 24px;
+}
+.seller-link {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.favorit-karusel
+{
+    padding-top: 40px;
+    width:1016px;
+}
+
+
+.seller-kard p
+{
+    margin-top: 8px;
+    font-family: var(--Oswald);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20.16px;
+    letter-spacing: 0.16em;
+    color: #353535;
+}
+
+
+.believe-start {
+    text-transform: uppercase;
+    font-family: var(--Oswald);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20.16px;
+    letter-spacing: 0.16em;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.believe-title {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.4px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.believe-slash {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.45px;
+    text-align: center;
+    margin-bottom: 26px;
+}
+.believe-slash span
+{
+    color: #C2A578;
+}
+
+.believe-info {
+    text-transform: uppercase;
+    margin: 16px 0;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 51.48px;
+    letter-spacing: 0.18em;
+}
+
+.believe-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26.18px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.believe-link {
+    text-transform: uppercase;
+    width: 120px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.34px;
+    letter-spacing: 0.175em;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.believe-karusel
+{
+    padding-top: 80px;
+    justify-content: start;
+    gap: 16px;
+}
+
+.believe-card
+{
+    width: 443px;
+    padding: 24px 16px;
+}
+
+.believe-card__title
+{
+    text-transform: uppercase;
+    margin: 16px 0;
+    font-family: var(--Oswald);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20.16px;
+    letter-spacing: 0.16em;
+}
+
+.believe-card__text
+{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23.45px;
+    
+}
+
+.blog
+{
+    padding: 80px 24px;
+}
+
+.blog-start {
+    text-transform: uppercase;
+    font-family: var(--Oswald);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20.16px;
+    letter-spacing: 0.16em;
+
+}
+.blog-title {
+    margin: 8px 0;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.08em;
+
+}
+.blog-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.45px;
+    color: #767676;
+    margin-bottom: 24px;
+}
+
+.seller-link
+{
+    color: #000000;
+}
+
+.seller-link:hover
+{
+    opacity: 0.7;
+}
+
+.seller-link:active
+{
+    opacity: 0.5;
+}
+
+
+
+.af
+{
+    background: #F1F1F1;
+}
+
+.af-inner
+{
+    position: relative;
+    padding: 0;
+    width: 768px;
+    height: 464px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.af-inner img
+{
+    position: relative;
+}
+
+.af-inner img:nth-child( 1)
+{
+    bottom: 84px;
+}
+
+.af-inner img:nth-child( 2)
+{
+    bottom: 41px;
+}
+
+.af-inner img:nth-child( 3)
+{
+    bottom: 143px;
+}
+
+.af-inner img:nth-child(4 )
+{
+    bottom: 41px;
+}
+
+
+.af-inner img:nth-child(5)
+{
+    position: absolute;
+    left: calc(50% - 187px);
+    top: calc(50% - 66px);
+}
 
 
