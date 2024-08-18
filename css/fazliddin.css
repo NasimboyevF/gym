@@ -1,5 +1,72 @@
+.faz-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
 
+p {
+    text-align: center;
+    margin-bottom: 40px;
+}
 
+.faz-contact-info {
+    margin-bottom: 40px;
+    text-align: center;
+}
 
+.faz-contact-info div {
+    margin: 40px 0; 
+}
+
+.faz-contact-info span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 13px;
+    margin-top: 40px; 
+    opacity: 50%;
+}
+
+.faz-contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px; 
+}
+
+.faz-contact-form input, 
+.faz-contact-form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%; 
+    max-width: 500px; 
+}
+
+.faz-contact-form input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 500px; 
+    text-align: center;
+}
+
+.faz-contact-form input[type="submit"]:hover {
+    background-color: #444;
+}
+
+.faz-contact-form input[type="submit"]:active {
+    background-color: #222;
+}
 
