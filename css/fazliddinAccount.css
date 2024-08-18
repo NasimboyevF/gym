@@ -1,7 +1,138 @@
+.faz-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
+.faz-account-section {
+    display: flex;
+    padding: 20px 0;
+    max-width: 700px;
+    margin-left: 200px;
+}
 
+.faz-account-sidebar {
+    width: 25%;
+    padding-right: 20px;
+}
 
+.faz-sidebar-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
 
+.faz-sidebar-menu {
+    list-style: none;
+    padding: 0;
+}
 
+.faz-menu-item {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin: 30px 0;
+}
 
+.faz-menu-item:hover {
+    text-decoration: underline;
+}
+
+.faz-account-content {
+    width: 75%;
+}
+
+.faz-order-details, .faz-address-book {
+    margin-bottom: 40px;
+}
+
+.faz-content-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.faz-order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.faz-order-table th, .faz-order-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+.faz-pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.faz-pagination-link {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #000;
+}
+
+.faz-pagination-link:hover {
+    text-decoration: underline;
+}
+
+.faz-address-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.faz-address-details {
+    margin: 10px 0;
+    font-style: normal;
+}
+
+.faz-view-addresses {
+    color: #000;
+    text-decoration: none;
+}
+
+.faz-view-addresses:hover {
+    text-decoration: underline;
+}
+
+.faz-order-table th, .faz-order-table td {
+    padding: 25px 10px;
+    margin: 0; 
+    text-align: left;
+}
+
+.faz-order-table th {
+    font-weight: bold;
+}
+
+.faz-order-table td {
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.faz-order-table td span {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.faz-order-table td .faz-order-status {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.faz-order-table tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.faz-order-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
 
