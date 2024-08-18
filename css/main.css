@@ -129,6 +129,9 @@ footer
 {
     padding: 40px 0 15px;
     background-color: #F1F1F1;
+    background-image: url(../img/footer-bg.svg);
+    background-repeat: no-repeat;
+    background-position: calc(50% ) calc(100% + 15px) ;
 }
 
 .footer-container
